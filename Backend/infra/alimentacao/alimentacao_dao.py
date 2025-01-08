@@ -28,4 +28,4 @@ def consultar(id):
     if row is None:
         return None
     cursor.close()
-    return ({"id_alimentacao": row[0], "alimentacao": row[1]})
+    return ({"id_alimentacao": row[0], "alimentacao": row[1]}) 
